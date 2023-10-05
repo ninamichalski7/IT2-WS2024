@@ -7,17 +7,25 @@
 
 <body>
 	<h1>Das erste Programm</h1>
+	<form action ="adresse.php" method="post">
+		<p><input name="vor">Vorname</p>
+		<p><input name="nach">Nachname</p>
+		<p><input type="submit"></p>
+	</form>
 	<?php
-		// Programmcode für die Berechnung der Zeit
-		/*
-		Mehrzeiliger Programm-
-		code
-		*/
-		$hoehe=10000;
-		echo(sqrt((2*$hoehe)/(9.81)));
+		$a = 435;
+		echo intval($a)."<br>";
 	
-	
-	
+	$b="22.6";
+	echo intval($b)."<br>";
+	echo doubleval($b)."<br>";
 	?>
+	
+	
+	
+	
+	
+	
+	
 </body>
 </html>
